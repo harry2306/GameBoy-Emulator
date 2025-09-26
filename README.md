@@ -6,7 +6,8 @@
 
 ## General Implementation:
   1. **CPU LR35902**: ![in progress](https://img.shields.io/badge/in%20progress-yellow)
-     [Documentation](
+     
+     [Documentation](hard_docs/cpu.md)
      - [ ] Implement CPU registers (A,B,C,D,E,H,L,F;PC,SP)
      - [ ] Implement flag handling (Z,N,H,C)
      - [ ] Build instruction decoder
