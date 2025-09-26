@@ -19,7 +19,7 @@
      - [ ] Implement interrupt handling
      - [ ] Verify correctness with CPU test ROMs
   3. Memory: ![not begun](https://img.shields.io/badge/not%20begun-red)
-     - To na be added
+     - To be added
   5. Graphics: ![not begun](https://img.shields.io/badge/not%20begun-red)
      - To be added
   7. Input: ![not begun](https://img.shields.io/badge/not%20begun-red)
