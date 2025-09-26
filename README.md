@@ -17,10 +17,10 @@
 
 
 ## General Implementation:
-  - CPU: ![status](https://img.shields.io/badge/status-in_progress-yellow)
-  - Memory: ![status](https://img.shields.io/badge/status-in_progress-yellow)
-  - Graphics: ![status](https://img.shields.io/badge/status-in_progress-yellow)
-  - Input: ![status](https://img.shields.io/badge/status-in_progress-yellow)
-  - Sound [optional]: ![status](https://img.shields.io/badge/any_text-you_like-blue)
+  - CPU: ![not begun](https://img.shields.io/badge/status-not%20begun-red)
+  - Memory: ![not begun](https://img.shields.io/badge/status-not%20begun-red)
+  - Graphics: ![not begun](https://img.shields.io/badge/status-not%20begun-red)
+  - Input: ![not begun](https://img.shields.io/badge/status-not%20begun-red)
+  - Sound [optional]: ![not begun](https://img.shields.io/badge/status-not%20begun-red)
 
     
