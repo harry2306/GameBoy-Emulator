@@ -21,6 +21,6 @@
   - Memory: ![status](https://img.shields.io/badge/status-in_progress-yellow)
   - Graphics: ![status](https://img.shields.io/badge/status-in_progress-yellow)
   - Input: ![status](https://img.shields.io/badge/status-in_progress-yellow)
-  - Sound [optional]: ![status](https://img.shields.io/badge/status-in_progress-yellow)
+  - Sound [optional]: ![status](https://img.shields.io/badge/just%20the%20message-8A2BE2)
 
     
