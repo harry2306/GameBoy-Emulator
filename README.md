@@ -9,7 +9,7 @@ the Mathematical Computer Science and Computer Science departments at the Univer
  - General Information: https://gbdev.io/pandocs/Specifications.html
  - CPU Hardware: https://gekkio.fi/files/gb-docs/gbctr.pdf
  - List of Opcodes: https://rgbds.gbdev.io/docs/v0.9.4/gbz80.7 or https://meganesu.github.io/generate-gb-opcodes
- - Harry's Lectures (READ): Not yet finalized but get a sense of how it would appear from now on 
+ - Harry's Lectures (READ): Not yet finalized but get a sense of how it would appear from now on  [Emulator Notes (PDF)](docs/CPU_DCOUMENTATION(3).pdf)
 
 
 ## 🚧 Current Task
