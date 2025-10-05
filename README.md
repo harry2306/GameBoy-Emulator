@@ -18,6 +18,36 @@ Supervisors:
 
 ---
 
+## 🧑‍💻 Coding Practices
+
+To keep this project consistent, maintainable, and portable across different operating systems, all contributors must follow these coding guidelines.
+
+---
+
+### 🗒️ 1. Documentation and Readability
+
+- **Over-document your code.** Every class, function, and complex block should have clear comments explaining what it does and why.  
+- Comments should help others understand your thought process, not just repeat the code.
+- Use consistent naming:
+  - **Classes:** CamelCase  
+  - **Functions:** PascalCase or snake_case (pick one and use it everywhere)  
+  - **Variables:** snake_case  
+- Avoid single-letter variable names unless they’re loop counters (`i`, `j`, `k`).
+
+
+### Example
+
+```cpp
+// Executes the next instruction from memory
+void ExecuteNextInstruction(int cycles) {
+    // Update registers and advance the program counter
+}
+```
+
+
+
+
+
 ## 📘 Resources
  - General Information: https://gbdev.io/pandocs/Specifications.html
  - CPU Hardware: https://gekkio.fi/files/gb-docs/gbctr.pdf
