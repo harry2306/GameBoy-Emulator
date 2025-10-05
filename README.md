@@ -35,7 +35,7 @@
      - To be added
   7. Input: ![not begun](https://img.shields.io/badge/not%20begun-red)
      - To be added
-  9. Sound [optional]: ![not begun](https://img.shields.io/badge/not%20begun-red)
+  9. Sound: ![not begun](https://img.shields.io/badge/not%20begun-red)
      - To be added
 
 
