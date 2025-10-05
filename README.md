@@ -1,10 +1,20 @@
 # GameBoy Emulator Project
 
 
-
-
+## Resources
+ - General Information: https://gbdev.io/pandocs/Specifications.html
+ - CPU Hardware: https://gekkio.fi/files/gb-docs/gbctr.pdf
+ - List of Opcodes: https://rgbds.gbdev.io/docs/v0.9.4/gbz80.7 or https://meganesu.github.io/generate-gb-opcodes
+ - Harry's Lectures (READ): 
 
 ## General Implementation:
+
+
+
+
+
+
+
   1. **CPU LR35902**: ![in progress](https://img.shields.io/badge/in%20progress-yellow)
      
      [Documentation](hard_docs/cpu.md)
