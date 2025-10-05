@@ -1,7 +1,20 @@
 # 🎮 GameBoy Emulator Project
 
-A work-in-progress Game Boy emulator written in C++ (focusing on accurate CPU emulation and modular architecture). This initiative is taken upon by students in
+A work-in-progress Game Boy emulator written in C++ 17 (focusing on accurate CPU emulation and modular architecture). This initiative is taken upon by students in
 the Mathematical Computer Science and Computer Science departments at the University of Illinois at Chicago.
+
+Supervisors:
+- **Harry Alvarado**
+
+  Major: Mathematics and Computer Science
+
+  Contact: halva3@uic.edu
+
+- **Marcos Araque**
+
+  Master Student in MSCS
+  
+  Contact: maraqu2@uic.edu
 
 ---
 
