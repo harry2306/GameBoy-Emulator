@@ -26,6 +26,7 @@ Supervisors:
 
 
 ## 🚧 Current Task
+  Nothing to do yet until Lecture 1 is finalized where we'll set a clear coding objective to every collaborator. 
 
 ## 🧩 General Implementation:
 
