@@ -1,5 +1,8 @@
 # GameBoy Emulator Project
 
+A work-in-progress Game Boy emulator written in C++ (focusing on accurate CPU emulation and modular architecture).
+
+---
 
 ## Resources
  - General Information: https://gbdev.io/pandocs/Specifications.html
@@ -15,7 +18,7 @@
 
 
 
-  1. **CPU LR35902**: ![in progress](https://img.shields.io/badge/in%20progress-yellow)
+ ### **CPU LR35902**: ![in progress](https://img.shields.io/badge/in%20progress-yellow)
      - [ ] Implement CPU registers (A,B,C,D,E,H,L,F;PC,SP)
      - [ ] Implement flag handling (Z,N,H,C)
      - [ ] Build instruction decoder
@@ -27,13 +30,13 @@
      - [ ] Miscellaneous operations
      - [ ] Implement interrupt handling
      - [ ] Verify correctness with CPU test ROMs
-  3. Memory: ![not begun](https://img.shields.io/badge/not%20begun-red)
+ ### Memory: ![not begun](https://img.shields.io/badge/not%20begun-red)
      - To be added
-  5. Graphics: ![not begun](https://img.shields.io/badge/not%20begun-red)
+ ### Graphics: ![not begun](https://img.shields.io/badge/not%20begun-red)
      - To be added
-  7. Input: ![not begun](https://img.shields.io/badge/not%20begun-red)
+ ### Input: ![not begun](https://img.shields.io/badge/not%20begun-red)
      - To be added
-  9. Sound: ![not begun](https://img.shields.io/badge/not%20begun-red)
+ ### Sound: ![not begun](https://img.shields.io/badge/not%20begun-red)
      - To be added
 
 
