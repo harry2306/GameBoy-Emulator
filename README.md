@@ -21,9 +21,6 @@ Supervisors:
 ## 🧑‍💻 Coding Practices
 
 To keep this project consistent, maintainable, and portable across different operating systems, all contributors must follow these coding guidelines.
-
----
-
 ### 🗒️ 1. Documentation and Readability
 
 - **Over-document your code.** Every class, function, and complex block should have clear comments explaining what it does and why.  
