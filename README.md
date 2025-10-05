@@ -12,7 +12,7 @@ Supervisors:
 
 - **Marcos Araque**
 
-  Master Student in MSCS
+  Master's Student in MSCS
   
   Contact: maraqu2@uic.edu
 
