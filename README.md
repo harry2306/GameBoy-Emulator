@@ -25,6 +25,7 @@ To keep this project consistent, maintainable, and portable across different ope
 
 - **Over-document your code.** Every class, function, and complex block should have clear comments explaining what it does and why.  
 - Comments should help others understand your thought process, not just repeat the code.
+- Do not use the 'using namespace std' always specify namespace prior to using an object (std::)
 - Use consistent naming:
   - **Classes:** CamelCase  
   - **Functions:** PascalCase or snake_case (pick one and use it everywhere)  
