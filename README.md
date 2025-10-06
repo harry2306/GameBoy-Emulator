@@ -41,6 +41,12 @@ void ExecuteNextInstruction(int cycles) {
 }
 ```
 
+### 🚫 2. External Libraries and File-Specific Code
+- Do not include external dependencies (e.g., SDL, SFML, Boost, etc.). Only use the C++ Standard Library.
+- Avoid OS-specific code — no Windows-only or macOS-only system calls, paths, or headers. Your code must compile and run the same way on Linux, macOS, and Windows.
+- Do not hardcode file paths. Use relative paths or configuration constants if file access is required.
+- No external asset loaders or libraries should be used without prior approval from supervisors.
+
 
 
 
