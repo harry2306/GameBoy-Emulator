@@ -66,4 +66,6 @@ class CPU {
     uint16_t FetchWord();
     void Execute(uint8_t opcode);
 
+    Memory& memory;
+
 };
