@@ -62,6 +62,7 @@ class CPU {
         F = val ? (F | 0x20 ) : (F & ~0x10);
     }
 
+    void printCPU();
     uint8_t FetchByte();
     uint16_t FetchWord();
     void Execute(uint8_t opcode);
