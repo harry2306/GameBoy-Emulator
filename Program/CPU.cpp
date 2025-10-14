@@ -31,3 +31,14 @@ void CPU::Execute(uint8_t opcode){
       break;
   }
 }
+
+void CPU::printCPU(){
+  \033[s;
+  for (int i = 0; i < 15; i++){
+    cout << "-";
+  }
+  for (int i = 0; i < 15; i++){
+    \033[B;
+    cout << "|";
+  }
+}
