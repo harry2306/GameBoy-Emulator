@@ -32,7 +32,7 @@ void CPU::Execute(uint8_t opcode){
   }
 }
 
-void CPU::printCPU(){
+void CPU::print(){
   \033[s; //saves the cursor location
   // ------ Print the Outer Box ------
   for (int i = 0; i < 15; i++){
