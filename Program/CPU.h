@@ -22,7 +22,7 @@ class CPU {
     };
 
     union{
-        struct {uint8_t E uint8_t D;};
+        struct {uint8_t E; uint8_t D;};
         uint16_t DE;
     };
 
@@ -50,16 +50,20 @@ class CPU {
         return F & 0x10;
     }
 
-    void Zset(bool val){
-        F = val ? (F | 0x80 ) : (F & ~0x80);
+    void setZ(bool val) { 
+        F = val ? (F | 0x80) : (F & ~0x80); 
     }
 
-    void Zset(bool val){
-        F = val ? (F | 0x40 ) : (F & ~0x40);
+    void setN(bool val) { 
+        F = val ? (F | 0x40) : (F & ~0x40); 
     }
 
-    void Zset(bool val){
-        F = val ? (F | 0x20 ) : (F & ~0x10);
+    void setH(bool val) { 
+        F = val ? (F | 0x20) : (F & ~0x20); 
+    }
+
+    void setC(bool val) { 
+        F = val ? (F | 0x10) : (F & ~0x10); 
     }
 
     void print();
