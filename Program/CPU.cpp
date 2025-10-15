@@ -34,22 +34,22 @@ void CPU::Execute(uint8_t opcode){
 }
 
 void CPU::print(){
-  \033[s; //saves the cursor location
+  cout << \033[s; //saves the cursor location
   // ------ Print the Outer Box ------
   for (int i = 0; i < 15; i++){
-    cout << "-";
+    std::cout << "-";
   }
   for (int i = 0; i < 15; i++){
-    \033[1B; // cursor goes down one
-    cout << "|";
+    std::cout << \033[1B; // cursor goes down one
+    std::cout << "|";
   }
   for (int i = 0; i < 15; i++){
-    \033[1D; // cursor goes to the left one
-    cout << "-";
+    std::cout << \033[1D; // cursor goes to the left one
+    std::cout << "-";
   }
   for (int i = 0; i < 15; i++){
-    \033[1A; // cursor goes up one
-    cout << "|";
+    std::cout << \033[1A; // cursor goes up one
+    std::cout << "|";
   }
   // ------ Register File ------
 
