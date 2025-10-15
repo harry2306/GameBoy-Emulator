@@ -1,4 +1,5 @@
 #include "CPU.h"
+#include <iostream> 
 
 CPU::CPU(Memor& mem) : memory(mem){
   Reset();
