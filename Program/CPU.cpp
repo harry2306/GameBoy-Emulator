@@ -33,12 +33,24 @@ void CPU::Execute(uint8_t opcode){
 }
 
 void CPU::printCPU(){
-  \033[s;
+  \033[s; //saves the cursor location
+  // ------ Print the Outer Box ------
   for (int i = 0; i < 15; i++){
     cout << "-";
   }
   for (int i = 0; i < 15; i++){
-    \033[B;
+    \033[B; // cursor goes down one
     cout << "|";
   }
+  for (int i = 0; i < 15; i++){
+    \033[D; // cursor goes to the left one
+    cout << "-";
+  }
+  for (int i = 0; i < 15; i++){
+    \033[A; // cursor goes up one
+    cout << "|";
+  }
+  // ------ End of Outer Print ------
+  
+  
 }
