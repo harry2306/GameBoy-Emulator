@@ -40,15 +40,15 @@ void CPU::print(){
     cout << "-";
   }
   for (int i = 0; i < 15; i++){
-    \033[B; // cursor goes down one
+    \033[1B; // cursor goes down one
     cout << "|";
   }
   for (int i = 0; i < 15; i++){
-    \033[D; // cursor goes to the left one
+    \033[1D; // cursor goes to the left one
     cout << "-";
   }
   for (int i = 0; i < 15; i++){
-    \033[A; // cursor goes up one
+    \033[1A; // cursor goes up one
     cout << "|";
   }
   // ------ Register File ------
