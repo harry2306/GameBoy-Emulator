@@ -50,7 +50,7 @@ void CPU::print(){
     \033[A; // cursor goes up one
     cout << "|";
   }
-  // ------ End of Outer Print ------
-  
+  // ------ Register File ------
+
   
 }
