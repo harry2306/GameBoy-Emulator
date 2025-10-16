@@ -39,17 +39,17 @@ void CPU::print(){
   for (int i = 0; i < 25; i++){
     std::cout << "- ";
   }
-  for (int i = 0; i < 15; i++){
-    std::cout << "\033[1B\033[1D]"; // cursor goes down one
-    std::cout << "|";
+  for (int i = 0; i < 25; i++){
+    std::cout << "\033[1B\033[1D"; // cursor goes down one
+    std::cout << "l";
   }
   for (int i = 0; i < 25; i++){
     std::cout << "\033[1D"; // cursor goes to the left one
     std::cout << " -";
     std::cout << "\033[1D";
   }
-  for (int i = 0; i < 15; i++){
-    std::cout << "\033[1A\033[1D]"; // cursor goes up one
+  for (int i = 0; i < 25; i++){
+    std::cout << "\033[1A\033[1D"; // cursor goes up one
     std::cout << "|";
   }
   // ------ Register File ------
