@@ -23,7 +23,7 @@ uint8_t CPU::FetchByte(){
 uint16_t CPU::FetchWord(){
   uint8_t lowerByte = FetchByte();
   uint8_t upperByte = FetchByte();
-  return (high << 8) | low;
+  return (upperByte << 8) | lowerByte;
 }
 
 void CPU::Execute(uint8_t opcode){
@@ -34,7 +34,7 @@ void CPU::Execute(uint8_t opcode){
 }
 
 void CPU::print(){
-  cout << "\033[s"; //saves the cursor location
+  std::cout << "\033[s"; //saves the cursor location
   // ------ Print the Outer Box ------
   for (int i = 0; i < 15; i++){
     std::cout << "-";
