@@ -1,7 +1,7 @@
 #include "CPU.h"
 #include <iostream> 
 
-CPU::CPU(Memor& mem) : memory(mem){
+CPU::CPU(Memory& mem) : memory(mem){
   Reset();
 }
 
