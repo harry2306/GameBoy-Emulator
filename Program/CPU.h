@@ -8,6 +8,7 @@ class CPU {
     CPU(Memory& mem); // constructor initialized by a memory object
     void Reset(); // resets registers and control lines to default
     void Step();
+    void print();
 
     private:
     // ---- Registers ----
@@ -66,7 +67,6 @@ class CPU {
         F = val ? (F | 0x10) : (F & ~0x10); 
     }
 
-    void print();
     uint8_t FetchByte();
     uint16_t FetchWord();
     void Execute(uint8_t opcode);
