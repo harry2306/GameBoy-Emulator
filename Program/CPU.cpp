@@ -36,19 +36,20 @@ void CPU::Execute(uint8_t opcode){
 void CPU::print(){
   std::cout << "\033[s"; //saves the cursor location
   // ------ Print the Outer Box ------
-  for (int i = 0; i < 15; i++){
-    std::cout << "-";
+  for (int i = 0; i < 25; i++){
+    std::cout << "- ";
   }
   for (int i = 0; i < 15; i++){
-    std::cout << "\033[1B"; // cursor goes down one
+    std::cout << "\033[1B\033[1D]"; // cursor goes down one
     std::cout << "|";
   }
-  for (int i = 0; i < 15; i++){
+  for (int i = 0; i < 25; i++){
     std::cout << "\033[1D"; // cursor goes to the left one
-    std::cout << "-";
+    std::cout << " -";
+    std::cout << "\033[1D";
   }
   for (int i = 0; i < 15; i++){
-    std::cout << "\033[1A"; // cursor goes up one
+    std::cout << "\033[1A\033[1D]"; // cursor goes up one
     std::cout << "|";
   }
   // ------ Register File ------
