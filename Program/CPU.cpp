@@ -34,25 +34,31 @@ void CPU::Execute(uint8_t opcode){
 }
 
 void CPU::print(){
-  std::cout << "\033[s"; //saves the cursor location
+  void CPU::print(){
+  std::cout << "\033[2J"; // clear screen
+  std::cout << "\033[1;1H"; // set to (1,1)
   // ------ Print the Outer Box ------
-  for (int i = 0; i < 25; i++){
+  for (int i = 0; i < 20; i++){
     std::cout << "- ";
   }
-  for (int i = 0; i < 25; i++){
-    std::cout << "\033[1B\033[1D"; // cursor goes down one
-    std::cout << "l";
+  for (int i = 1; i < 30; i++){
+    std::cout << "\033[" << i << ";1H" << "l";
+    std::cout << "\033[" << i << ";40H" << "l";
   }
-  for (int i = 0; i < 25; i++){
-    std::cout << "\033[1D"; // cursor goes to the left one
-    std::cout << " -";
-    std::cout << "\033[1D";
+  std::cout << "\033[30;2H";
+  for (int i = 0; i < 19; i++){
+    std::cout << "- ";
   }
-  for (int i = 0; i < 25; i++){
-    std::cout << "\033[1A\033[1D"; // cursor goes up one
-    std::cout << "|";
-  }
-  // ------ Register File ------
+  // ------ Tabulate/Initialize ------
+  std::cout << "\033[2;15H" << "REGISTER FILE";
+
+
+
+
+
+  std:: cout << "\033[30;40H";
+  std::cout << std::endl;
+}
 
   
 }
