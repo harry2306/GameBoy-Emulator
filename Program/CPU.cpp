@@ -60,5 +60,3 @@ void CPU::print(){
   std::cout << std::endl;
 }
 
-  
-}
