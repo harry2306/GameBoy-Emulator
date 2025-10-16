@@ -10,7 +10,7 @@ uint8_t Memory::Read(uint16_t addr) const{
   return 0xFF;
 }
 
-void Memory::Write(uint16_t addr, uint8_t value) const{
+void Memory::Write(uint16_t addr, uint8_t value){
   if (addr < mem.size())
       mem[addr] = value;
 }
