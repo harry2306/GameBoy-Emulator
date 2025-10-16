@@ -1,4 +1,4 @@
-#include "Memory.h";
+#include "Memory.h"
 
 Memory::Memory(){
   mem.resize(0x10000,0x00); //64 KB
