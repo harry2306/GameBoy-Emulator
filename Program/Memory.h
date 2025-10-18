@@ -2,6 +2,29 @@
 #include <cstdint>
 #include <vector>
 
+/* 
+---- Memory Map ---- 
+Address     Size     Name           Description
+ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ 
+|                                                    |
+|                                                    |
+|                                                    |
+|                                                    |
+|                                                    |
+|                                                    |
+|                                                    |
+|                                                    |
+|                                                    |
+|                                                    |
+|                                                    |
+|                                                    |
+
+
+
+
+
+*/
+
 class Memory{
     public:
     Memory();
