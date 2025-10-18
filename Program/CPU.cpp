@@ -75,9 +75,14 @@ void CPU::print(){
         std::cout << "\033[" << j << ";3H 0x" << std::hex << (int)H;
         std::cout << "\033[" << j << ";22H 0x" << std::hex << (int)L;
       }
+      if (j == 12){
+        std::cout << "\033[" << j << ";3H 0x" << std::hex << (int)PC;
+      }
+      if (j == 14){
+        std::cout << "\033[" << j << ";3H 0x" << std::hex << (int)SP;
+      }
   }
   std:: cout << "\033[30;40H";
   std::cout << std::endl;
 }
-
 
