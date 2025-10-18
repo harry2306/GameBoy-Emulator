@@ -6,7 +6,7 @@ class CPU {
 
     public:
     CPU(Memory& mem); // constructor initialized by a memory object
-    void Reset(); // resets registers and control lines to default
+    void reset(); // resets registers and control lines to default
     void Step();
     void print();
 
@@ -66,7 +66,7 @@ class CPU {
     void setC(bool val) { 
         F = val ? (F | 0x10) : (F & ~0x10); 
     }
-
+    bool sepRegAF = true, sepRegCB = true, sepRegDE = true, sepRegHL = true;
     uint8_t FetchByte();
     uint16_t FetchWord();
     void Execute(uint8_t opcode);
